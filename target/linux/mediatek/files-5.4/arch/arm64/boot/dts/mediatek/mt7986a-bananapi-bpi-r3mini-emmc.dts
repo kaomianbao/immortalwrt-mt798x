@@ -220,7 +220,7 @@
 	pinctrl-0 = <&pcie0_pins>;
 	status = "okay";
 };
-
+/*
 &wbsys {
 	mediatek,mtd-eeprom = <&factory 0x0000>;
 	status = "okay";
@@ -228,7 +228,7 @@
 	pinctrl-0 = <&wf_2g_5g_pins>;
 	pinctrl-1 = <&wf_dbdc_pins>;
 };
-
+*/
 &pio {
 	/* GPIO 11 NGFF_GNSS_OFF. output-high: enable, output-low: disable */
 	gnss_off {
